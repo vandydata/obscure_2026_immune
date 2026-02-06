@@ -9,7 +9,7 @@ export const myViewConfig = {
       "files": [
         {
           "fileType": "anndata.zarr",
-          "url": "https://cds-pancreatlas-public.s3.amazonaws.com/20260130_immune_res0.2.20260204.zarrr",
+          "url": "https://cds-pancreatlas-public.s3.amazonaws.com/20260130_immune_res0.2.20260204.zarr",
           "options": {
             "obsEmbedding": [
               {
