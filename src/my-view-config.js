@@ -1,15 +1,15 @@
 export const myViewConfig = {
   "version": "1.0.4",
-  "name": "20260130_rna_harmony_coarse-subclusters.20260204.zarr",
+  "name": "20260130_immune_res0.2.20260204.zarr",
   "description": "",
   "datasets": [
     {
       "uid": "A",
-      "name": "20260130_rna_harmony_coarse-subclusters.20260204.zarr",
+      "name": "20260130_immune_res0.2.20260204.zarr",
       "files": [
         {
           "fileType": "anndata.zarr",
-          "url": "https://cds-pancreatlas-public.s3.amazonaws.com/20260130_rna_harmony_coarse-subclusters.20260204.zarr",
+          "url": "https://cds-pancreatlas-public.s3.amazonaws.com/20260130_immune_res0.2.20260204.zarrr",
           "options": {
             "obsEmbedding": [
               {
@@ -20,16 +20,12 @@ export const myViewConfig = {
             ],
             "obsSets": [
               {
+                "name": "Cell Type",
+                "path": "obs/celltype"
+              },
+              {
                 "name": "Coarse Annotation",
                 "path": "obs/coarse_annot"
-              },
-              {
-                "name": "Endocrine subset coarse anno",
-                "path": "obs/endocrine_coarse_subclusters"
-              },
-              {
-                "name": "Immune subset coarse anno",
-                "path": "obs/immune_coarse_subclusters"
               },
               {
                 "name": "Samples",
