@@ -1,15 +1,15 @@
 export const myViewConfig = {
   "version": "1.0.4",
-  "name": "20260130_immune_res0.2.20260204.zarr",
+  "name": "20260219_immune_res0.2.20260313.zarr",
   "description": "",
   "datasets": [
     {
       "uid": "A",
-      "name": "20260130_immune_res0.2.20260204.zarr",
+      "name": "20260219_immune_res0.2.20260313.zarr",
       "files": [
         {
           "fileType": "anndata.zarr",
-          "url": "https://cds-pancreatlas-public.s3.amazonaws.com/20260130_immune_res0.2.20260204.zarr",
+          "url": "https://cds-pancreatlas-public.s3.amazonaws.com/20260219_immune_res0.2.20260313.zarr",
           "options": {
             "obsEmbedding": [
               {
